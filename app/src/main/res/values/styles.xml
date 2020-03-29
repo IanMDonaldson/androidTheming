@@ -52,14 +52,16 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="TextAppearance.Shrine.ProductTitle" parent="TextAppearance.AppCompat.Body1">
+    <style name="TextAppearance.Shrine.ProductTitle" parent="TextAppearance.AppCompat">
         <item name="android:textColor">@color/textColorPrimary</item>
         <item name="android:gravity">center</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
     </style>
 
-    <style name="TextAppearance.Shrine.ProductPrice" parent="TextAppearance.AppCompat.Body2">
+    <style name="TextAppearance.Shrine.ProductPrice" parent="TextAppearance.AppCompat">
         <item name="android:textColor">@color/textColorPrimary</item>
         <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
     </style>
 </resources>
