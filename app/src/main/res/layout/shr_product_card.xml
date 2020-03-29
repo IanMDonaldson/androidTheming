@@ -28,18 +28,16 @@
             android:padding="16dp">
 
             <TextView
+                style="@style/TextAppearance.Shrine.ProductTitle"
                 android:id="@+id/product_title"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/shr_product_title"
-                android:textAppearance="?attr/textAppearanceHeadline6" />
+                android:layout_height="wrap_content" />
 
             <TextView
+                style="@style/TextAppearance.Shrine.ProductPrice"
                 android:id="@+id/product_price"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/shr_product_description"
-                android:textAppearance="?attr/textAppearanceBody2" />
+                android:layout_height="wrap_content" />
         </LinearLayout>
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

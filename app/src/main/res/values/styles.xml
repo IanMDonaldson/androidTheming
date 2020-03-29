@@ -16,11 +16,13 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColorPrimary">@color/textColorPrimary</item>
         <item name="android:fontFamily">@fontFamily/dosis</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
     </style>
 
     <style name="Widget.Shrine.Toolbar" parent="Widget.AppCompat.Toolbar">
         <item name="android:background">@color/colorPrimary</item>
-        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="android:theme">@style/Theme.Shrine</item>
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
     </style>
 
@@ -44,19 +46,20 @@
     </style>
 
     <style name="TextAppearance.Shrine.ToolbarTitle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/textColorPrimary</item>
         <item name="android:textAllCaps">true</item>
-        <item name="android:textSize">20sp</item>
         <item name="android:fontFamily">@font/convergence</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="TextAppearance.Shrine.ProductTitle" parent="TextAppearance.AppCompat.Body1">
         <item name="android:textColor">@color/textColorPrimary</item>
-        <item name="android:gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="TextAppearance.Shrine.ProductPrice" parent="TextAppearance.AppCompat.Body2">
         <item name="android:textColor">@color/textColorPrimary</item>
-        <item name="android:gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
     </style>
 </resources>
